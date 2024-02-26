@@ -89,8 +89,7 @@ const Featured = () => {
             </h1>
 
             <p className=" text-center">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero,
-                laborum!
+            "Explore our featured cars, where luxury meets performance, and find your perfect ride today!"
             </p>
 
             <div className=" mt-8">

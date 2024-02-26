@@ -14,18 +14,11 @@ const Vision = () => {
                 <h1 className=" text-4xl font-bold ">Our Vision</h1>
 
                 <h2 className=" font-semibold text-lg lg:text-2xl">
-                    Empower individuals to achieve sustainable mobility solutions and
-                    inspire a positive impact on the environment.
+                "Redefining Car Buying for the Modern Era"
                 </h2>
+    
                 <p className=" text-sm lg:text-base">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi,
-                    quisquam!
-                </p>
-                <p className=" text-sm lg:text-base">
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci
-                    maiores obcaecati est natus fugiat officiis, iste ut harum consequatur
-                    laboriosam praesentium non velit perferendis perspiciatis temporibus,
-                    error nemo itaque autem.
+                At CarVista, our vision is to revolutionize the car buying experience by offering unparalleled convenience, transparency, and satisfaction to every customer. We strive to create a platform where individuals can effortlessly find their perfect vehicle, supported by a commitment to integrity, excellence, and continuous innovation. Our goal is to become the trusted destination for car buyers, providing a seamless journey from browsing to ownership.
                 </p>
             </div>
         </div>

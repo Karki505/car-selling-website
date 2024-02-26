@@ -82,8 +82,12 @@ const CarNews = () => {
       </h1>
 
       <p className=" text-center">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero,
-        laborum!
+      "Stay ahead with the latest in car news and expert advice, keeping you informed and empowered on your automotive journey."
+
+
+
+
+
       </p>
 
       <div className=" mt-8">

@@ -31,12 +31,12 @@ const OurServices = () => {
             </div>
 
             <div className=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mt-10 gap-5">
-                <ServiceCards icon={icon1} title="Tires & Wheels" />
-                <ServiceCards icon={icon2} title="Exhaust System" />
-                <ServiceCards icon={icon3} title="Cars Maintenance" />
-                <ServiceCards icon={icon4} title="Brake Repairs" />
-                <ServiceCards icon={icon5} title="Body Service" />
-                <ServiceCards icon={icon6} title="Engine Services" />
+                <ServiceCards icon={icon1} title="Tires & Wheels" sentence="Ensure your vehicle's safety and performance with our top-notch tire and wheel services, including installation, rotation, and alignment." />
+                <ServiceCards icon={icon2} title="Exhaust System" sentence="Keep your car running smoothly with our expert exhaust system repairs and replacements, maximizing efficiency and reducing emissions." />
+                <ServiceCards icon={icon3} title="Cars Maintenance" sentence="Trust our skilled technicians to provide comprehensive car maintenance services, from oil changes to fluid checks, to keep your vehicle in peak condition." />
+                <ServiceCards icon={icon4} title="Brake Repairs" sentence="Stay safe on the road with our professional brake repairs and maintenance, ensuring reliable stopping power and optimal braking performance." />
+                <ServiceCards icon={icon5} title="Body Service" sentence="Restore your car's appearance and structural integrity with our range of body repair services, including dent removal, painting, and collision repairs." />
+                <ServiceCards icon={icon6} title="Engine Services" sentence="Maintain your engine's longevity and performance with our thorough engine diagnostics, repairs, and tune-ups, performed by our experienced mechanics" />
             </div>
         </div>
     );

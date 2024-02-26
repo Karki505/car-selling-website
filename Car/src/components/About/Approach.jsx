@@ -9,18 +9,11 @@ const Approch = () => {
                 <h1 className=" text-4xl font-bold ">Our Approch</h1>
 
                 <h2 className=" font-semibold text-lg lg:text-2xl">
-                    Empower individuals to achieve sustainable mobility solutions and
-                    inspire a positive impact on the environment.
+                    "Simplifying Car Buying with Excellence"
                 </h2>
+                
                 <p className=" text-sm lg:text-base">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi,
-                    quisquam!
-                </p>
-                <p className=" text-sm lg:text-base">
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci
-                    maiores obcaecati est natus fugiat officiis, iste ut harum consequatur
-                    laboriosam praesentium non velit perferendis perspiciatis temporibus,
-                    error nemo itaque autem.
+                At CarVista, we prioritize transparency and personalized service, ensuring a seamless and enjoyable car buying experience. With a commitment to excellence and innovation, we aim to exceed expectations and set a new standard in the automotive industry.
                 </p>
             </div>
 

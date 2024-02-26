@@ -13,10 +13,12 @@ const Hero = () => {
                     <p className=" text-lg lg:text-2xl font-medium">
                         Over 1000+ New Cars Available Here
                     </p>
-                    <p className=" text-sm lg:text-base">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aperiam
-                        recusandae ratione ducimus molestias ab neque accusamus eveniet
-                        cumque corrupti.
+                    <p className=" text-sm lg:text-base" >
+                    Welcome to CarVista, your premier destination for car enthusiasts and buyers alike. 
+                    Explore our extensive collection of car listings, where stunning visuals await at every click. 
+                    From browsing the latest models to staying updated on industry news and services, CarVista is your go-to hub for all things automotive.
+
+
                     </p>
 
                     <div className="flex gap-8">

@@ -9,8 +9,7 @@ const CarsCard = ({ id, img, name, price }) => {
             <img src={img} alt="img" />
             <h1 className=" font-bold text-xl pl-5 text-primary">{name}</h1>
             <p className=" pl-5 pb-4">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur,
-                doloribus?
+                
             </p>
             <div className=" flex justify-between px-6 pb-2">
                 <h3 className=" font-semibold text-xl">${price}</h3>

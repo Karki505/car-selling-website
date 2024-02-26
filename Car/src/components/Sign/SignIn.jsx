@@ -29,11 +29,11 @@ const SignIn = ({ closeForm }) => {
   };
 
   return (
-    <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50">
+    <div className="fixed inset-0 flex items-center justify-center bg-black">
       <div className="popup-form absolute mt-12 text-black">
-        <form className=" w-80 md:w-96 space-y-5 bg-white p-5 rounded-xl" onSubmit={handleSubmit}>
-          <h1 className="text-4xl font-semibold text-center text-backgroundColor">
-            Book Now
+        <form className=" w-80 md:w-96 space-y-5 bg-orange-500 p-5 rounded-xl" onSubmit={handleSubmit}>
+          <h1 className="text-4xl font-semibold text-center text-black">
+            Sign In
           </h1>
           <div className=" flex flex-col">
             <input
@@ -80,14 +80,13 @@ const SignIn = ({ closeForm }) => {
             />
           </div>
           <div className=" flex gap-5">
-          <div>
-      <button className=" bg-green-500 text-white px-4 py-2 rounded-md hover:bg-hoverColor transition duration-300 ease-in-out">
-        Book Appointment
-      </button>
-    </div>
-
+            <div>
+              <button className=" bg-green-500 text-white px-4 py-2 rounded-md hover:bg-hoverColor transition duration-300 ease-in-out">
+                Book Appointment
+              </button>
+            </div>
             <button
-              className=" bg-orange-500 text-white px-10 rounded-md active:bg-red-500"
+              className=" bg-black text-white px-10 rounded-md active:bg-red-500"
               type="button"
               onClick={closeForm}
             >
