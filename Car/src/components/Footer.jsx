@@ -10,6 +10,9 @@ const Footer = () => {
                     <p className=" mb-2 text-sm">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam autem
                         ea alias labore voluptatem sed assumenda, ipsum maxime ratione ipsa?
+                    
+                    
+                    
                     </p>
                 </div>
                 <div>
