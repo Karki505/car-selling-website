@@ -4,6 +4,7 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import Cars from "./pages/Cars";
 import Services from "./pages/Services";
+import Sign from "./pages/Sign";
 
 
 const App = () => {
@@ -15,6 +16,7 @@ const App = () => {
           <Route path="/about" element={<About />} />
           <Route path="/cars" element={<Cars />} />
           <Route path="/services" element={<Services />} />
+          <Route path="/sign" element={<Sign />} />
         </Routes>
       </BrowserRouter>
     </>

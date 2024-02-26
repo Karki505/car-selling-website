@@ -1,12 +1,8 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { GiSteeringWheel } from "react-icons/gi";
 import { AiOutlineClose } from "react-icons/ai";
 import { RiMenuUnfoldFill } from "react-icons/ri";
 import { Link } from "react-router-dom";
-
-
-
-
 
 const Navbar = () => {
     const [menu, setMenu] = useState(false);
@@ -14,6 +10,14 @@ const Navbar = () => {
     const handleChange = () => {
         setMenu(!menu);
     };
+
+    // useEffect to handle side effects
+    useEffect(() => {
+        // You can add any side effects here
+        // For example, you can log something to the console
+        console.log("Menu state changed:", menu);
+    }, [menu]); // Dependency array ensures useEffect runs when 'menu' state changes
+
     return (
         <header className='fixed w-full z-10 bg-secondary text-white py-4'>
             {/*desktop navigation section */}
@@ -29,8 +33,9 @@ const Navbar = () => {
                     <Link to="/cars" className=" hover:text-primary transition duration-200 ease-linear">Our Cars</Link>
                     <Link to="/services" className=" hover:text-primary transition duration-200 ease-linear">Services</Link>
 
-                    <button className=" hidden lg:flex border-2 border-primary text-lg px-4 rounded-md hover:bg-primary transition duration-200 ease-linear">
-                        Sign In</button>
+
+                    <Link to='/sign' className=" hidden lg:flex border-2 border-primary text-lg px-4 rounded-md hover:bg-primary transition duration-200 ease-linear">
+                        Sign In</Link>
                 </div>
 
                 <div className=" md:hidden flex items-center">
@@ -53,10 +58,11 @@ const Navbar = () => {
                 <Link to="/cars" className=" hover:text-primary transition duration-200 ease-linear">Our Cars</Link>
                 <Link to="/services" className=" hover:text-primary transition duration-200 ease-linear">Services</Link>
 
+
                 <div>
-                    <button className="border-2 border-primary py-1 px-4 rounded-md">
+                    <Link to='/sign' className="border-2 border-primary py-1 px-4 rounded-md">
                         Sign In
-                    </button>
+                    </Link>
                 </div>
 
             </div>
