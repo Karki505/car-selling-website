@@ -1,12 +1,16 @@
-import React from 'react'
-import Navbar from '../components/Navbar'
+import React from "react";
+import Navbar from "../components/Navbar";
+import OurCars from "../components/Cars/OurCars";
+import Footer from "../components/Footer";
 
 const Cars = () => {
-    return (
-        <>
-        <Navbar/>
-        </>
-    )
-}
+  return (
+    <>
+      <Navbar />
+      <OurCars />
+      <Footer />
+    </>
+  );
+};
 
-export default Cars
+export default Cars;
